@@ -19,7 +19,7 @@ class IntroPage1 extends StatelessWidget {
                   height: 100,
                 ),
                 Image(
-                  image: AssetImage('assets/images/calculator_pana_1.png'),
+                  image: AssetImage('assets/images/calculator_pana.png'),
                 ),
                 Text(
                   '''Welcome to 
