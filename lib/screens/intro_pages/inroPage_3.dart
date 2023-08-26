@@ -12,7 +12,7 @@ class IntroPage3 extends StatelessWidget {
           width: double.infinity,
           height: double.infinity,
           color: const Color(0xFFFAFBF0),
-          padding: const EdgeInsets.fromLTRB(10, 0, 10, 10),
+          padding: const EdgeInsets.fromLTRB(20, 0, 20, 10),
           child: Column(
             mainAxisAlignment: MainAxisAlignment.spaceEvenly,
             children: [
@@ -39,8 +39,8 @@ own health and keep the ideal body
                 height: 10,
               ),
               SizedBox(
-                width: 321,
-                height: 57,
+                width: 400,
+                height: 60,
                 child: ElevatedButton(
                   onPressed: () {},
                   style: customButtonStyle,

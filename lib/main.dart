@@ -1,4 +1,5 @@
-import 'package:first/screens/introPage_2.dart';
+import 'package:first/screens/all.dart';
+import 'package:first/screens/homePage.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -11,11 +12,10 @@ class MyApp extends StatelessWidget {
   // This widget is the root of your application.
   @override
   Widget build(BuildContext context) {
-    return MaterialApp(
+    return const MaterialApp(
       debugShowCheckedModeBanner: false,
       title: 'BMI',
-      theme: ThemeData(),
-      home: const IntroPage2(),
+      home: HomePage(),
     );
   }
 }
