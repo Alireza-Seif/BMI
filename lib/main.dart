@@ -1,4 +1,4 @@
-import 'package:first/screens/inroPage_3.dart';
+import 'package:first/screens/introPage_2.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -15,7 +15,7 @@ class MyApp extends StatelessWidget {
       debugShowCheckedModeBanner: false,
       title: 'BMI',
       theme: ThemeData(),
-      home: const IntroPage3(),
+      home: const IntroPage2(),
     );
   }
 }

@@ -11,7 +11,7 @@ class IntroPage1 extends StatelessWidget {
             width: double.infinity,
             height: double.infinity,
             color: const Color(0xFFFAFBF0),
-            padding: const EdgeInsets.fromLTRB(10, 0, 10, 0),
+            padding: const EdgeInsets.fromLTRB(10, 0, 10, 10),
             child: const Column(
               mainAxisAlignment: MainAxisAlignment.spaceEvenly,
               children: [
@@ -24,10 +24,13 @@ class IntroPage1 extends StatelessWidget {
                 Text(
                   '''Welcome to 
  BMI Check''',
-                  style: TextStyle(fontSize: 40),
+                  style: TextStyle(fontSize: 40, fontWeight: FontWeight.bold),
                 ),
-                Text(''' Discover if you have the ideal body
-mass index in a simple and fast way'''),
+                Text(
+                  ''' Discover if you have the ideal body
+mass index in a simple and fast way''',
+                  style: TextStyle(fontSize: 18),
+                ),
                 SizedBox(
                   height: 100,
                 ),

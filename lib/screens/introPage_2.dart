@@ -11,7 +11,7 @@ class IntroPage2 extends StatelessWidget {
             width: double.infinity,
             height: double.infinity,
             color: const Color(0xFFFAFBF0),
-            padding: const EdgeInsets.fromLTRB(10, 0, 10, 0),
+            padding: const EdgeInsets.fromLTRB(10, 0, 10, 10),
             child: const Column(
               mainAxisAlignment: MainAxisAlignment.spaceEvenly,
               children: [
@@ -23,11 +23,17 @@ class IntroPage2 extends StatelessWidget {
                 ),
                 Text(
                   '''Fill the fields''',
-                  style: TextStyle(fontSize: 40),
+                  style: TextStyle(fontSize: 40, fontWeight: FontWeight.bold),
                 ),
-                Text('''Fill the custom fields of body weight 
+                SizedBox(
+                  height: 25,
+                ),
+                Text(
+                  '''Fill the custom fields of body weight 
         and height for BMI Check to
-                calculate your bmi'''),
+                calculate your bmi''',
+                  style: TextStyle(fontSize: 18),
+                ),
                 SizedBox(
                   height: 100,
                 ),

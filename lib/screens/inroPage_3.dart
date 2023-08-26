@@ -12,7 +12,7 @@ class IntroPage3 extends StatelessWidget {
           width: double.infinity,
           height: double.infinity,
           color: const Color(0xFFFAFBF0),
-          padding: const EdgeInsets.fromLTRB(10, 0, 10, 0),
+          padding: const EdgeInsets.fromLTRB(10, 0, 10, 10),
           child: Column(
             mainAxisAlignment: MainAxisAlignment.spaceEvenly,
             children: [
@@ -25,13 +25,18 @@ class IntroPage3 extends StatelessWidget {
               const Text(
                 '''Increase your
       Health''',
-                style: TextStyle(fontSize: 40),
+                style: TextStyle(fontSize: 40, fontWeight: FontWeight.bold),
               ),
-              const Text('''Use the final result to increase your
+              const Text(
+                '''Use the final result to increase your
 own health and keep the ideal body
-                     mass index'''),
+                     mass index''',
+                style: TextStyle(
+                  fontSize: 18,
+                ),
+              ),
               const SizedBox(
-                height: 100,
+                height: 10,
               ),
               SizedBox(
                 width: 321,
