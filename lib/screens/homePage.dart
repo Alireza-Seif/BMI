@@ -1,4 +1,5 @@
 import 'package:first/components/button/elevated_button.dart';
+import 'package:first/widgets/gender_widget.dart';
 import 'package:flutter/material.dart';
 
 class HomePage extends StatelessWidget {
@@ -37,7 +38,7 @@ class HomePage extends StatelessWidget {
                     onPressed: () {},
                     icon: const Icon(
                       Icons.settings_outlined,
-                      size: 30,
+                      size: 40,
                     ),
                   )
                 ],
@@ -46,6 +47,7 @@ class HomePage extends StatelessWidget {
                 'Select your sex',
                 style: TextStyle(fontSize: 18),
               ),
+              const GenderWidget(),
               SizedBox(
                 width: 400,
                 height: 60,
