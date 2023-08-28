@@ -1,5 +1,6 @@
 import 'package:first/components/button/elevated_button.dart';
-import 'package:first/widgets/gender_widget.dart';
+import 'package:first/widgets/Bottom_widgets.dart';
+import 'package:first/widgets/gender_widgets.dart';
 import 'package:flutter/material.dart';
 
 class HomePage extends StatelessWidget {
@@ -15,6 +16,7 @@ class HomePage extends StatelessWidget {
           color: const Color(0xFFFAFBF0),
           padding: const EdgeInsets.fromLTRB(20, 40, 20, 10),
           child: Column(
+            mainAxisAlignment: MainAxisAlignment.spaceAround,
             children: [
               Row(
                 mainAxisAlignment: MainAxisAlignment.spaceBetween,
@@ -48,12 +50,13 @@ class HomePage extends StatelessWidget {
                 style: TextStyle(fontSize: 18),
               ),
               const GenderWidget(),
+              const BottomWidgets(),
               SizedBox(
                 width: 400,
                 height: 60,
                 child: ElevatedButton(
                   onPressed: () {},
-                  style: customButtonStyle,
+                  style: firstButtonStyle,
                   child: const Text('Calculate'),
                 ),
               )

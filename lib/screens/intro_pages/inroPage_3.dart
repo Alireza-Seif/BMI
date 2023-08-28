@@ -43,7 +43,7 @@ own health and keep the ideal body
                 height: 60,
                 child: ElevatedButton(
                   onPressed: () {},
-                  style: customButtonStyle,
+                  style: firstButtonStyle,
                   child: const Text('Get Started'),
                 ),
               ),
