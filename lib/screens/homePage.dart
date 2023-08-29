@@ -1,6 +1,7 @@
 import 'package:first/components/button/elevated_button.dart';
 import 'package:first/widgets/Bottom_widgets.dart';
 import 'package:first/widgets/gender_widgets.dart';
+import 'package:first/widgets/height_widgets.dart';
 import 'package:flutter/material.dart';
 
 class HomePage extends StatelessWidget {
@@ -14,7 +15,7 @@ class HomePage extends StatelessWidget {
           width: double.infinity,
           height: double.infinity,
           color: const Color(0xFFFAFBF0),
-          padding: const EdgeInsets.fromLTRB(20, 40, 20, 10),
+          padding: const EdgeInsets.fromLTRB(20, 20, 20, 10),
           child: Column(
             mainAxisAlignment: MainAxisAlignment.spaceAround,
             children: [
@@ -47,9 +48,10 @@ class HomePage extends StatelessWidget {
               ),
               const Text(
                 'Select your sex',
-                style: TextStyle(fontSize: 18),
+                style: TextStyle(fontSize: 20),
               ),
               const GenderWidget(),
+              const HeightWidget(),
               const BottomWidgets(),
               SizedBox(
                 width: 400,
