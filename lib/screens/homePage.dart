@@ -48,7 +48,10 @@ class HomePage extends StatelessWidget {
               ),
               const Text(
                 'Select your sex',
-                style: TextStyle(fontSize: 20),
+                style: TextStyle(
+                  fontSize: 20,
+                  fontWeight: FontWeight.w400,
+                ),
               ),
               const GenderWidget(),
               const HeightWidget(),
