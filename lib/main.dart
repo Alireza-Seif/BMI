@@ -1,4 +1,4 @@
-import 'package:first/screens/homePage.dart';
+import 'package:first/screens/settingsPage.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -14,7 +14,7 @@ class MyApp extends StatelessWidget {
     return const MaterialApp(
       debugShowCheckedModeBanner: false,
       title: 'BMI',
-      home: HomePage(),
+      home: SetteingsPage(),
     );
   }
 }
